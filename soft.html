@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Microsoft - Cloud,Computer,Apps & Gaming</title>
+    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+
+</head>
+
+<body class="">
+    <div class="navbar flex justify-between items-center bg-blue-500 p-2">
+
+        <div class="flex items-center md:order-2">
+            <div onclick="myfunction()" class="hamburger p-2 inline-block cursor-pointer md:hidden  ">
+                <div class="line h-0.5 w-6 my-1 bg-black"></div>
+                <div class="line h-0.5 w-6 my-1 bg-black"></div>
+                <div class="line h-0.5 w-6 my-1 bg-black"></div>
+            </div>
+            <div class="search md:hidden "><i class=" search fa-sharp fa-solid fa-magnifying-glass"></i></div>
+        </div>
+        <div class="Ms-logo text-center md:order-1 flex ">
+            <div><img src="RE1Mu3b.png" class="w-30 h-5" ></div>
+            <div class="features  md:flex mx-3 hidden space-x-6">
+                <div class="items">Microsoft 360</div>
+                <div class="items">Teams</div>
+                <div class="items">Windows</div>
+                <div class="items">Surface</div>
+                <div class="items">Xbox</div>
+                <div class="items">Support</div>
+            </div>
+        </div>
+        <div class="CART text-center  md:order-3 flex">
+            <div class="search hidden md:block  "><i class=" mx-1 search fa-sharp fa-solid fa-magnifying-glass"></i><input type="search" placeholder="search" class=" px-3"></div>
+            <div class=" md:mx-3">
+                <i class="fa-solid fa-cart-plus"></i>
+            </div>
+        </div>
+
+    </div>
+    <div class="slider flex flex-col-reverse md:flex-row md:bg-blue-200 m-3  ">
+        <div class=" left flex flex-col mx-5 md:justify-center md:align-center">
+            <p class="font-extrabold text-xl my-3"> Microsoft 365</p>
+            <p class="my-3">Every thing you need to achieve more in less time</p>
+            <button class="bg-blue-500 py-1">For One Person</button>
+        </div>
+        <div class="right "><img src="game.jpg" class="" alt=""></div>
+
+    </div>
+    <div
+        class="tab flex flex-col md:flex-row md:text-blue-700 underline font-bold justify-center items-center mb-9 my-8 md:space-x-6 ">
+        <div class="1  text-blue-700 underline  "><img src="micro logo.webp" class="mx-auto">
+            <p class="my-5">chose your Microsoft 360</p>
+        </div>
+        <div class="2 text-blue-700 underline  my-4"><img src="device.webp" class="mx-auto">
+            <p class="my-5">Explore Surface Devices</p>
+        </div>
+        <div class="3 text-blue-700 underline  my-4"><img src="xbox.webp" class="mx-auto">
+            <p class="my-5">Buy Xbox Games</p>
+        </div>
+        <div class="4 text-blue-700 underline my-4"><img src="window.webp" class="mx-auto">
+            <p class="my-5">Get Window 11</p>
+        </div>
+    </div>
+    <div class="product flex flex-col md:flex-row">
+        <div class="p1 mx-2 mb-4"><img src="1-1.webp" alt="">
+            <button class="bg-yellow-400 my-3">New</button>
+            <h3 class="my-3 text-2xl font-semibold">surface pro 9</h3>
+            <p>The tablet flexibility you want and the laptop performance you need -- all in one ultra-portable device
+            </p>
+            <a class="text-blue-700 font-bold hover:underline" href=""> Learn more></a>
+        </div>
+        <div class="p1 mx-2 mb-4"><img src="2-2.jpg" alt="">
+            <button class="bg-yellow-400 my-3">New</button>
+            <h3 class="my-3 text-2xl font-semibold">surface laptop 5</h3>
+            <p>The tablet flexibility you want and the laptop performance you need -- all in one ultra-portable device
+            </p>
+            <a class="text-blue-700 font-bold hover:underline" href=""> Learn more></a>
+        </div>
+        <div class="p1 mx-2 mb-4"><img src="3.jpg" alt="">
+            <button class="bg-yellow-400 my-3">New</button>
+            <h3 class="my-3 text-2xl font-semibold">surface laptop studio</h3>
+            <p>The tablet flexibility you want and the laptop performance you need -- all in one ultra-portable device
+            </p>
+            <a class="text-blue-700 font-bold hover:underline" href=""> Learn more></a>
+        </div>
+        <div class="p1 mx-2 mb-4"><img src="4.jpg" alt="">
+            <button class="bg-yellow-400 my-3">New</button>
+            <h3 class="my-3 text-2xl font-semibold">Xbox series X</h3>
+            <p>The tablet flexibility you want and the laptop performance you need -- all in one ultra-portable device
+            </p>
+            <a class="text-blue-700 font-bold hover:underline" href=""> Learn more></a>
+        </div>
+       
+    </div>
+    <div class="social flex my-7 space-x-6">
+        <p>Follow Microsoft</p>
+        <div class="facebook"><a href="#"><img src=""></a><i class="fa-brands fa-facebook-f "></i></div>
+        <div class="twiter"><a href="#"><img src=""></a><i class="fa-brands fa-twitter"></i>
+        </div>
+        <div class="youtube"><a href="#"><img src=""></a><i class="fa-brands fa-youtube"></i></div>
+    </div>
+    <div class="footer text-center  p-9 mt-6 mb-0 w-full bg-blue-500">
+        <p>&#169 Microsoft 2023 clone @ravishah
+        </p>
+    </div>
+
+</body>
+<script type="text/javascript">
+  function myfunction(){
+var x=document.getElementsByClassName("features")
+ if(x.style.visibility=='hidden'){
+    x.style.visibility='visible'
+ }elsex.style.visibility='hidden'
+  }
+</script>
+
+</html>
